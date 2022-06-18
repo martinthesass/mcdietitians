@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.about{
+    display: grid;
+    place-items: center;
+    background-color: whitesmoke;
+    padding: 4rem 0;
+} 
+
+
+
+p{
+    text-align: center;
+    max-width: 50%;
+    font-size: 2rem;
+    max-width: 75vw;
+    margin: auto;
+    line-height: 1.45rem;
+    
+
+}
+
+.mc-img{
+    
+    filter: grayscale(100%);
+    height:20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.quote-l{
+    
+    font-size: 2.25rem;
+    margin-left: 20%;
+    color: #bd020c;
+}
+
+.quote-r{
+    
+    font-size: 2.25rem;
+    margin-left: 80%;
+    color: #bd020c;
+}
+
+.logos{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 6rem;
+
+}
+
+.logos img{
+   /* filter: grayscale(100%); */
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    
+}
+
+.info{
+    /* margin: 2.5rem 0; */
+    display: grid;
+    place-items: center;
+
+}
+
+.info h4{
+    text-align: center;
+    font-size: 2.0rem;
+    color:#bd020c;
+    margin: 3rem 0;
+}
+
+.info p{
+    font-size: 1.25rem;
+    line-height: 3rem;
+    text-align: start;
+    letter-spacing: 0.18rem;
+}
+
+
+
+.underline{
+margin-right: auto;
+margin-left: auto;
+height: 0.3rem;
+width: 5rem;
+margin-top: 2rem;
+background-color: black;
+margin-bottom: 2rem;
+}
+
+.numbers{
+     display: grid;
+    place-items: center; 
+    
+}
+
+
+.numbers p{
+    
+    margin: 1.15rem 0;
+}
+.number{
+    display: grid;
+    place-items: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    height:2.5rem;
+    width: 2.5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0.8rem 0.5rem 0;
+}
+
+.footer{
+    display: grid;
+    
+    
+}
+
+.social-icons {
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+    justify-items: center;
+    background-color: #bd020c;
+    padding: 3rem 0;
+    
+    
+}
+
+.social-icons li {
+    list-style: none;
+    font-size: 2.25rem;
+    
+}
+
+.social-icons li a{
+    color: white;
+    
+}
+
+.enquire {
+    margin: 3rem 0;
+    
+    padding: 2rem;
+    text-align: centre;
+    border: 5px solid black;
+    background: #bd020c;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: white;
+    font-family: "courgette";
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+}
